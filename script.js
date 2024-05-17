@@ -33,7 +33,7 @@ function calcularICMS() {
     return;
   }
 
-  let taxaICMS = porcentagemICMS / 100; // Converte a porcentagem em decimal
+  let taxaICMS = porcentagemICMS / 100;
   let valorICMS = precoCusto * taxaICMS;
   let precoFinal = precoCusto + valorICMS;
 
